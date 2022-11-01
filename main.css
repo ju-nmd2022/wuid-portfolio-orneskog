@@ -1,0 +1,42 @@
+.background {
+    background-color: #403f1b;
+}
+.header {
+    width: 400px;
+}
+.content {
+    color: #f2ba85;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 350px;
+    float: inline-start;
+}
+.profileImage {
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    border-radius: 5%;
+}
+h1 {
+    font-size: 5em;
+    margin-bottom: 0.1em;
+    margin-top: 0.1em;
+}
+h2 {
+    font-size: 2em;
+}
+h1,h2,h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #222013;
+}
+
+li:hover {
+    color: #d96446;
+}
+footer {
+    color: #d96446;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8pt;
+    text-align: center;
+}
