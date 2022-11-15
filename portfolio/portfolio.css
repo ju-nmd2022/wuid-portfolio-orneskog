@@ -45,12 +45,16 @@ h1 {
 h2 {
     color: #d96446;
 }
-p {
-    max-width: 650px;
+.pwidth {
+    max-width: 633px;
 }
 /* took help from this link to get the following lines to work: https://www.w3schools.com/css/css3_mediaqueries_ex.asp */
 @media screen and (max-width:632px){
     main {
         max-width: 320px;
+    }
+    .pwidth {
+        max-width: 300px;
+        text-align: center;
     }
 }
