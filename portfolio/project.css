@@ -11,7 +11,9 @@ a:link {
 a:visited{
     color: #d96446;
 }
-
+i {
+    font-size: smaller;
+}
 img {
     max-width: 300px;
     background-color: white;
