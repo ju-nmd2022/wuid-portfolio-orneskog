@@ -24,6 +24,9 @@ a:visited{
     gap: 1rem;
     text-align: center;
 }
+.startpage{
+    text-align: center;
+}
 img {
     max-width: 280px;
     background-color: white;
@@ -45,7 +48,7 @@ h2 {
 p {
     max-width: 650px;
 }
-
+/* took help from this link to get the following lines to work: https://www.w3schools.com/css/css3_mediaqueries_ex.asp */
 @media screen and (max-width:632px){
     main {
         max-width: 320px;
