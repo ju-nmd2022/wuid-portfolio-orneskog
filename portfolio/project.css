@@ -17,7 +17,7 @@ img {
     background-color: white;
     border-color: black;
     border-style: inset;
-    border-width: 2px;
+    border-width: 5px;
 }
 main {
     max-width: 633px;
