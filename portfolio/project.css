@@ -1,0 +1,43 @@
+html {
+    background-color: #403f1b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover {
+    color: #f2ba85;
+}
+a:link {
+    color:#f2ba85
+}
+a:visited{
+    color: #d96446;
+}
+img {
+    max-width: 300px;
+    background-color: white;
+    border-color: black;
+    border-style: inset;
+    border-width: 2px;
+}
+main {
+    max-width: 633px;
+    margin: auto;
+}
+h1 {
+    color: #222013;
+    font-size: 52px;
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 1rem;
+    text-align: center;
+}
+@media screen and (max-width:632px){
+    main {
+        max-width: 320px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+}

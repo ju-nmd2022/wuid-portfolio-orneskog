@@ -1,0 +1,53 @@
+html {
+    background-color: #403f1b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+    max-width: 633px;
+    margin: auto;
+}
+li:hover {
+    color: #d96446;
+}
+a:link {
+    color:#f2ba85
+}
+a:visited{
+    color: #d96446;
+}
+a:hover {
+    color: #d96446;
+}
+.portfoliocontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 1rem;
+    text-align: center;
+}
+img {
+    max-width: 280px;
+    background-color: white;
+}
+section{
+    background-color: #222013;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+h1 {
+    color: #d96446;
+    font-size: 52px;
+    text-align: center;
+}
+h2 {
+    color: #d96446;
+}
+p {
+    max-width: 650px;
+}
+
+@media screen and (max-width:632px){
+    main {
+        max-width: 320px;
+    }
+}
