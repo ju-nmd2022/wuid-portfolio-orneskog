@@ -6,6 +6,22 @@ main {
     max-width: 633px;
     margin: auto;
 }
+h1 {
+    color: #d96446;
+    font-size: 52px;
+    text-align: center;
+}
+h2 {
+    color: #d96446;
+    transition: color 0.4s
+    ease-out 50ms
+}
+h2:visited {
+        color: #d96446;
+    }
+h2:hover {
+        color: #d98446;
+}
 li:hover {
     color: #d96446;
 }
@@ -52,22 +68,6 @@ section{
     from {left: 300px;}
     to {left: 0px;}
   }
-h1 {
-    color: #d96446;
-    font-size: 52px;
-    text-align: center;
-}
-h2 {
-    color: #d96446;
-    transition: color 0.4s
-    ease-out 50ms
-}
-h2:visited {
-        color: #d96446;
-    }
-h2:hover {
-        color: #d98446;
-}
 .pwidth {
     max-width: 633px;
 }
