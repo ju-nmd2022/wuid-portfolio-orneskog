@@ -36,7 +36,22 @@ section{
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    position: relative;
 }
+/* Took help from the following link for this animation: https://www.w3schools.com/css/css3_animations.asp */
+#section1 {animation-timing-function: ease-in-out;
+    animation: mymove 5s;}
+#section2 {animation-timing-function: ease-in-out;
+    animation: mymove2 5s;}
+
+@keyframes mymove {
+    from {left: -300px;}
+    to {left: 0px;}
+  }
+  @keyframes mymove2 {
+    from {left: 300px;}
+    to {left: 0px;}
+  }
 h1 {
     color: #d96446;
     font-size: 52px;
@@ -44,6 +59,14 @@ h1 {
 }
 h2 {
     color: #d96446;
+    transition: color 0.4s
+    ease-out 50ms
+}
+h2:visited {
+        color: #d96446;
+    }
+h2:hover {
+        color: #d98446;
 }
 .pwidth {
     max-width: 633px;
