@@ -19,22 +19,13 @@ h2 {
 /* Used This to get an animation while hovering the headline
 https://blog.hubspot.com/website/css-hover-animation */
 h2:visited {
-        color: #d96446;
-    }
+    color: #d96446;
+ }
+h2:link {
+    color: #d96446;
+}
 h2:hover {
-        color: #FFFF00;
-}
-li:hover {
-    color: #d96446;
-}
-a:hover {
-    color: #f2ba85;
-}
-a:link {
-    color:#f2ba85;
-}
-a:visited{
-    color: #d96446;
+    color: #FFFF00;
 }
 .portfoliocontainer{
     display: grid;
