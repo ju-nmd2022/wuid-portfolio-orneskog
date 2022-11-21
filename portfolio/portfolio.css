@@ -12,8 +12,9 @@ h1 {
     text-align: center;
 }
 a {
-    text-decoration: none;
+    color: #d96446;
 }
+
 /* Used This to get an animation while hovering the headline
 https://blog.hubspot.com/website/css-hover-animation */
 h2 {
