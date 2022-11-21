@@ -31,6 +31,13 @@ h2:link {
 h2:hover {
     color: #ffae00;
 }
+.portfoliohero{
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+    gap: 3rem;
+    text-align: center;
+    margin: auto;
+}
 .portfoliocontainer{
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px);
@@ -46,6 +53,7 @@ img {
 }
 .heropic {
     background-color: #403f1b;
+    transform: scale(200%);
 }
 section{
     background-color: #403f1b;
@@ -95,6 +103,12 @@ section{
     }
     .bottom {
         padding-bottom: 150px;
+    }
+    .heropic {
+        transform: scale(100%);
+    }
+    .portfoliohero{
+        gap: 0rem;
     }
 }
 footer{
