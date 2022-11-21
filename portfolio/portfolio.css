@@ -43,12 +43,25 @@ img {
     max-width: 280px;
     background-color: white;
 }
+.heropic {
+    background-color: #403f1b;
+}
 section{
-    background-color: #222013;
+    background-color: #403f1b;
+    position: relative;
+    text-align: center;
+}
+.section{
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    position: relative;
+    background-color: #222013;
+}
+.top{
+    padding-top: 250px;    
+}
+.bottom{
+    padding-bottom: 250px;
 }
 /* Took help from the following link for this animation: https://www.w3schools.com/css/css3_animations.asp */
 #section1 {animation-timing-function: ease-in-out;
@@ -75,6 +88,12 @@ section{
     .pwidth {
         max-width: 320px;
         text-align: center;
+    }
+    .top {
+        padding-top: 150px;
+    }
+    .bottom {
+        padding-bottom: 150px;
     }
 }
 footer{
